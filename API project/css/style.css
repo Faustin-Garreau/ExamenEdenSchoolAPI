@@ -1,0 +1,43 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-color: #e7e7e7;
+}
+
+body .input {
+  text-align: center;
+  margin: 100px 0;
+}
+
+body .input input[type='text'] {
+  height: 50px;
+  width: 600px;
+  background-color: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+
+body .input input[type='submit'] {
+  height: 50px;
+  width: 100px;
+  background-color: #e7e7e7;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 2px;
+}
+
+body #ville {
+  text-align: center;
+}
+
+body #infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 20px;
+}
+/*# sourceMappingURL=style.css.map */
